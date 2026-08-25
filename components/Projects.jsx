@@ -21,13 +21,15 @@ const PROJECTS = [
     liveUrl: "https://level-tube.vercel.app/",
     urlLabel: "level-tube.vercel.app",
     description:
-      "A full-featured, dark-themed video sharing and microblogging platform — a YouTube-class application built from scratch. Browse trending content, manage subscriptions, publish microblog posts, and manage your channel via a creator Studio Dashboard.",
+      "Level Tube is a full-stack video-sharing platform inspired by YouTube, built with Next.js 16 on the frontend and Node.js + Express on the backend. It supports the complete lifecycle of video content — from upload and discovery to social interaction.",
     features: [
-      "Video feed with Trending, Subscriptions, and personalized Home tabs",
-      "Tweets Feed for creator short-form posts alongside videos",
-      "Studio Dashboard for channel management, video upload, and analytics",
-      "Watch history, liked videos, and custom playlist organization",
-      "Comments on videos, along with replies and likes on those comments",
+      " Dual Authentication — Email/password login with JWT (access + refresh token rotation) and Google OAuth via Firebase Admin SDK",
+      "Creator Dashboard — Real-time analytics including total views, subscribers, likes, and video management (publish/unpublish, edit, delete)",
+      "Social Layer — Comments, likes, channel subscriptions, and a Twitter-style tweet/post system per channel",
+      "Playlists — Create and manage video playlists per user",
+      "Channel Profiles — Dedicated channel pages with subscriber counts, video tabs, playlist tabs, and tweets; owners can edit profile, avatar, and banner in-place",
+      " Cloudinary CDN — All media (videos, thumbnails, avatars, banners) stored and served via Cloudinary",
+      " Watch History — Persistent per-user watch history, prepended on each unique watch",
     ],
     techs: [
       "Next js",
@@ -38,6 +40,8 @@ const PROJECTS = [
       "MongoDB",
       "cloudinary",
       "Railway",
+      "MongoDB Aggregation Pipelines",
+      "bcrypt password hashing",
     ],
     screenshots: [
       { src: "/screenshots/leveltube-home.png", label: "Home Feed" },
