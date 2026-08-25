@@ -21,7 +21,7 @@ const PROJECTS = [
     liveUrl: "https://level-tube.vercel.app/",
     urlLabel: "level-tube.vercel.app",
     description:
-      "Level Tube is a full-stack video-sharing built with Next.js 16 on the frontend and Node.js + Express on the backend. It supports the complete lifecycle of video content — from upload and discovery to social interaction.",
+      "Level Tube is a full-stack video-sharing platform built with Next.js 16 on the frontend and Node.js + Express on the backend. It supports the complete lifecycle of video content — from upload and discovery to social interaction.",
     features: [
       " Dual Authentication — Email/password login with JWT (access + refresh token rotation) and Google OAuth via Firebase Admin SDK",
       "Creator Dashboard — Real-time analytics including total views, subscribers, likes, and video management (publish/unpublish, edit, delete)",
