@@ -40,7 +40,10 @@ export default function Navbar() {
       });
     };
 
-    const observer = new IntersectionObserver(observerCallback, observerOptions);
+    const observer = new IntersectionObserver(
+      observerCallback,
+      observerOptions,
+    );
 
     const sections = ["services", "projects", "experience", "contact"];
     sections.forEach((id) => {
@@ -130,7 +133,9 @@ export default function Navbar() {
                 href={item.href}
                 onClick={() => setMobileOpen(false)}
                 className={`py-2.5 text-base font-semibold border-b border-slate-100 flex items-center justify-between transition-colors ${
-                  isActive ? "text-slate-950 pl-2 border-l-2 border-l-slate-950" : "text-slate-650"
+                  isActive
+                    ? "text-slate-950 pl-2 border-l-2 border-l-slate-950"
+                    : "text-slate-650"
                 }`}
               >
                 <span>{item.label}</span>
@@ -140,13 +145,6 @@ export default function Navbar() {
               </a>
             );
           })}
-          <a
-            href="#contact"
-            onClick={() => setMobileOpen(false)}
-            className="mt-2 w-full text-center py-3 rounded-full bg-slate-950 text-white font-semibold text-sm"
-          >
-            Let's Talk ↗
-          </a>
         </div>
       )}
     </header>
