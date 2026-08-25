@@ -87,16 +87,14 @@ export default function Services() {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div>
-            <span className="text-xs font-mono text-slate-400 font-bold uppercase tracking-widest block">
-              Core Capabilities [05]
-            </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-tight mt-1">
               Services &amp; Expertise
             </h2>
           </div>
 
           <p className="text-slate-600 text-sm max-w-md leading-relaxed">
-            Full-stack engineering delivery — Web Development, SaaS Platforms, AI Integrations, n8n Automations, and System Design.
+            Full-stack engineering delivery — Web Development, SaaS Platforms,
+            AI Integrations, n8n Automations, and System Design.
           </p>
         </div>
 

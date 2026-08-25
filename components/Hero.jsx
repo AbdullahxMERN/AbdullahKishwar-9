@@ -120,16 +120,6 @@ export default function Hero() {
               </div>
               <ArrowUpRight className="w-3.5 h-3.5 text-slate-400" />
             </a>
-
-            <div className="w-44 sm:w-48 px-5 py-3 rounded-full bg-slate-950 text-white shadow-sm flex items-center justify-between text-xs font-semibold">
-              <div className="flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                <span>Code 90 Dev</span>
-              </div>
-              <span className="text-[10px] font-mono text-slate-400">
-                Present
-              </span>
-            </div>
           </div>
         </div>
       </div>
