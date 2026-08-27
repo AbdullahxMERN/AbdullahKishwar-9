@@ -22,9 +22,7 @@ export default function Hero() {
           {/* Left Column: Role & Bio */}
           <div className="lg:col-span-4 space-y-6 order-2 lg:order-1 text-center lg:text-left pb-4">
             <div className="space-y-3">
-              <span className="text-xs font-mono uppercase tracking-widest text-slate-400 font-bold block">
-                Software Engineer @ Code 90
-              </span>
+            
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-950 tracking-tight leading-tight">
                 Full-Stack Developer
               </h2>
